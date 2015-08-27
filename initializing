@@ -1,0 +1,9 @@
+# first, check if there are brackets in the input. If yes, go to the brackets function. 
+def brackets_function(a_list):
+	using_brackets = False
+	bracketed = []
+	for item in a_list:
+		if using_brackets == False and item != '(':
+			# add item to stack
+		elif 
+		# do the bracketed section, then add th output to the list. Repeat for all bracket sections
